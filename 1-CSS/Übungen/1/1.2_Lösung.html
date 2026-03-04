@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            border: 1px solid red;
+            display: flex;
+            width: 1000px;
+        }
+        .item {
+            padding: 2em;
+            border: black 1px solid;
+        }
+        .item2 {
+            flex-grow: 1;
+            flex-basis: 25%;
+        }
+        .item1 { 
+            flex-grow: 2; 
+            flex-basis: 50%;
+        }
+        .item3 { 
+            flex-grow: 1; 
+            flex-basis: 25%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <div class="item item1">20% Box</div>
+        <div class="item item2">20% Box</div>
+        <div class="item item3">20% Box</div>
+    </div>
+</body>
+</html>
