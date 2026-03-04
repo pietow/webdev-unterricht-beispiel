@@ -1,0 +1,6 @@
+[submodule "live_blog"]
+	path = live_blog
+	url = git@github.com:pietow/live_blog.git
+[submodule "live_forms"]
+	path = live_forms
+	url = git@github.com:pietow/live_forms.git
