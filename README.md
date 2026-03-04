@@ -29,4 +29,3 @@ git clone --recurse-submodules https://github.com/pietow/webdev-unterricht-beisp
 
 Dieses Repository vermittelt modernen Webentwicklungs-Stack von den CSS-Grundlagen  
 bis zum Cloud-Deployment – praxisnah, strukturiert und mit echten Beispielprojekten.
-```
